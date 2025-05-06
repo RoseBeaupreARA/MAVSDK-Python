@@ -270,7 +270,7 @@ class ManualControl(AsyncBase):
               value between -1. to 1. negative -> down, positive -> up (usually for now, for multicopter 0 to 1 is expected)
 
          r : float
-              value between -1. to 1. negative -> turn anti-clockwise (towards the left), positive -> turn clockwise (towards the right)
+              value between -1. to 1. negative -> turn clockwise (towards the right), positive -> turn counter-clockwise (towards the left)
 
          Raises
          ------
